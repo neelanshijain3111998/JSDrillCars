@@ -4,7 +4,7 @@ function testcase6(inventory) {
     let dictt = inventory[i];
 
     if (dictt["car_make"] == "BMW" || dictt["car_make"] == "Audi") {
-      BMWAndAudi.push(inventory[i]);
+      BMWAndAudi.push(inventory[i]); //only BMW and Audi cars data store in BMWAndAudi array
     }
   }
   return BMWAndAudi;

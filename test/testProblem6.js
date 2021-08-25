@@ -1,4 +1,4 @@
 const inventoryy = require("../inventoryRecord.js").inventory;
 const pr6 = require("../problem6.js");
 let BMWANDAUDI = pr6.publicTestcase6(inventoryy);
-console.log(JSON.stringify(BMWANDAUDI));
+console.log(JSON.stringify(BMWANDAUDI)); //only BMW and Audi cars data print

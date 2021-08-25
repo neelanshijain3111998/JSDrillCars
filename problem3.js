@@ -7,9 +7,9 @@ function testcase3(inventory) {
   let detail = [];
   for (let i = 0; i < inventory.length; i++) {
     let dictt = inventory[i];
-    detail.push(dictt["car_model"]);
+    detail.push(dictt["car_model"]); //pushing the car model one by one into the array
   }
-  return detail.sort();
+  return detail.sort(); //it return array of car models alphabetically
 }
 module.exports = {
   publicTestcase3: testcase3,

@@ -5,14 +5,14 @@
 // "Last car is a *car make goes here* *car model goes here*";
 
 function testcase2(inventory) {
-  let last = inventory.length - 1;
-  let dictt = inventory[last];
-  let detail = [];
+  let last = inventory.length - 1; //take last index
+  let dictt = inventory[last]; // take last dictionary
+  let detail = []; //store details of last dictionary
   detail.push(dictt["id"]);
   detail.push(dictt["car_year"]);
   detail.push(dictt["car_make"]);
   detail.push(dictt["car_model"]);
-  return "Last car is a " + detail[2] + " " + detail[3];
+  return "Last car is a " + detail[2] + " " + detail[3]; ////it return last car  make and model
 }
 
 module.exports = {
